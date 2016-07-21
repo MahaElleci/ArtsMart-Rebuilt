@@ -16,7 +16,13 @@
   box-shadow: 3px
   padding-left: 1em;
 }
+@media screen and (max-width: 1000px) {
 
+.whiteBox
+{
+margin-top:20px;
+}
+}
 #singleProductImage{
   cursor: zoom-in;
 }

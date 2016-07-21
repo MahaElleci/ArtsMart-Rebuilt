@@ -8,13 +8,68 @@
   <link href="../CSS/bootstrap-theme.min.css" rel="stylesheet" >
   <link href="../CSS/bootstrap.min.css" rel="stylesheet" >
   <link rel="stylesheet" href="../CSS/Products.css" >
+    <link rel="stylesheet" href="../CSS/custom.css" >
+    <link rel="stylesheet" href="../CSS/style.css" >
   <!--[if lt IE 9]>
   <script src = "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src = "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
 </head>
-<body style="background: #f6f6f6;" class="grid-con">
+<body style="background: #f6f6f6;" class="grid-con page">
+<div id="topLine"></div>
+<a class="sellArtTxt" href="#">Sell Your Art</a>
+<div class="headerTop">
+    <div class="container header">
+      <div class="row headerRow">
+        <a class="col-lg-6 logo" href="#"><img src="../icons/logo.png"></a>
+        <a href="" class="cart"><label>MY CART</label><img src="../icons/cart.png"></a>
+        <input type="text" class="searchbar hidden-sm hidden-xs" placeholder="Search for art"/>
+
+
+
+      </div>
+      <div class=" row searchbarRow">
+        <input type="text" class="searchbarBig col-sm-12 hidden-lg hidden-md" placeholder="Search for art"/>
+      </div>
+
+    </div>
+<br><br>
+
+<nav id="nav" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button id="loginBtnCollapse" class="navbar-toggle collapsed ">LOGIN / REGISTER</button>
+      <button type="button" class="btn-collapsed navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+       <ul class="nav navbar-nav listToggled">
+      <li class="txt"><a href="">NEW</a></li>
+        <li class="txt"><a href="">ART</a></li>
+         <li class="txt"><a href="">COLLECTIONS</a></li>
+         <li class="txt"><a href="">ARTISTS</a></li>
+          <li class="txt"><a href="">SHOWROOM</a></li>
+            <li class="txt"><a href="">ART ADVISORY</a></li>
+             <li class="txt"><a href="">TURPENTINE MAG</a></li>
+
+
+          </ul>
+          <button id="loginBtn"class="btnLogin hidden-sm hidden-xs">LOGIN / REGISTER</button>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
   <div class="container">
     <div class="row" >
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
@@ -27,7 +82,7 @@
     </div>
 
 
-  <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 searchBox" >
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 searchBox" >
     <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3">
 
 
@@ -274,7 +329,7 @@
           <div class="row">
 
 
-          <div class="rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-3  " >
+          <div class="rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-12  " >
             <a href="#" class="item">
               <img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/13.28-100x100-13000-320x320.jpg" alt="">
               <h4><strong>Beetle</strong></h4>
@@ -284,7 +339,7 @@
           </div>
 
 
-          <div class= "rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1   ">
+          <div class= "rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1   ">
             <a href="#" class="item">
   								<img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/14.148-100x70-aclyric-on-canvas-12000.-e1463912670899-320x457.jpg" alt="">
   								<h4>Tempest</h4>
@@ -294,7 +349,7 @@
           </div>
 
 
-            <div class= "rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1  ">
+            <div class= "rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1   ">
               <a href="#" class="item">
   								<img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/13.148-100x70-aclyric-on-canvas-12000-e1463912673383-320x449.jpg" alt="">
   								<h4>Storm</h4>
@@ -309,7 +364,7 @@
       <div class="row ">
 
 
-      <div class="rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-3 " >
+      <div class="rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-12 " >
         <a href="#" class="item">
           <img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/13.28-100x100-13000-320x320.jpg" alt="">
           <h4><strong>Beetle</strong></h4>
@@ -319,7 +374,7 @@
       </div>
 
 
-      <div class= "whiteBox rowspacer col-lg-3 col-md-3 col-sm-3 col-xs-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 ">
+      <div class= "whiteBox rowspacer col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1  ">
         <a href="#" class="item">
               <img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/14.148-100x70-aclyric-on-canvas-12000.-e1463912670899-320x457.jpg" alt="">
               <h4>Tempest</h4>
@@ -329,7 +384,7 @@
       </div>
 
 
-        <div class= "rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1  ">
+        <div class= "rowspacer whiteBox col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1   ">
           <a href="#" class="item">
               <img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/13.148-100x70-aclyric-on-canvas-12000-e1463912673383-320x449.jpg" alt="">
               <h4>Storm</h4>
@@ -338,8 +393,95 @@
                     </a>
         </div>
   </div>
+    <br>
+  <button class="button load"  href="#">Load More</button>
+  <br>
+
     </div>
-<button class="button load"  href="#">Load More</button>
+
+  <br>
+
+<div class="footer">
+  <div class="left-container hidden-sm hidden-xs">
+    <div class="container footer-container-left">
+      <div class="row footer-row-left">
+        <div class="label-and-button col-lg-12">
+          <p>GET THE LATEST UPDATES, NEWS, TIPS & OFFERS.</p>
+          <input class="search-bar-footer col-lg-6 col-md-6 col-xs-12" type="text" placeholder="Email Address"/>
+          <button class="col-lg-2 col-md-2 col-sm-3 col-xs-3 submit-button-footer"><label>SUBSCRIBE</label></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="left-container-hidden hidden-lg hidden-md">
+    <div class="container footer-container-left">
+      <div class="row footer-row-left">
+        <div class="label-and-button-hidden col-lg-12">
+          <p>GET THE LATEST UPDATES, NEWS, TIPS & OFFERS.</p>
+          <input class="search-bar-footer-hidden col-lg-6 col-md-6" type="text" placeholder="Email Address"/>
+          <button class="col-lg-2 col-md-2 col-sm-3 col-xs-3 submit-button-footer-hidden"><label>SUBSCRIBE</label></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-container">
+    <div class="container footer-container-right">
+      <div class="row footer-row-right">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>FOR BUYERS</label>
+          <ul class="list-unstyled">
+            <li><a>Art</a></li>
+            <li><a>Events</a></li>
+            <li><a>Art Advisory</a></li>
+            <li><a>FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>FOR ARTISTS</label>
+         <ul class="list-unstyled">
+               <li><a>Sell Your Design</a></li>
+            <li><a>Sign In</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>ARTSMART</label>
+         <ul class="list-unstyled">
+            <li><a>About</a></li>
+            <li><a>How it Works</a></li>
+            <li><a>Turpentine Mag</a></li>
+            <li><a>Contact Us</a></li>
+
+          </ul></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>USEFUL LINKS</label>
+         <ul class="list-unstyled">
+            <li><a>Payment</a></li>
+            <li><a>Shipping</a></li>
+
+          </ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+
+    <div class="container footer-container-bottom">
+      <div class="row footer-row-bottom">
+
+        <div class="col-lg-2 col-md-2 footer-bottom-logo">
+
+        </div>
+
+
+
+      </div>
+
+  </div>
+</div>
+
+
+
     <script src="../JavaScript/jquery-1.11.1.min.js" type="text/javascript" > </script>
     <script src="../JavaScript/bootstrap.min.js" type="text/javascript" > </script>
     <script src="../JavaScript/Products.js" type="text/javascript" > </script>
