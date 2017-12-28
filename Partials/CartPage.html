@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<title>My Cart - ArtsMart</title> 
+<head>  
+    <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=0;" />
+
+       <!-- <link href="../CSS/CartStyle.css" rel="stylesheet">   -->   
+      
+      <link href="../CSS/custom.css" rel="stylesheet">    
+       <link href="../CSS/style.css" rel="stylesheet">      
+   <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+
+</head>   
+
+<body class="page">     
+
+  <div id="page-wrapper"> 
+
+    <div id="page-header"> 
+
+  <a class="sellArtTxt" href="www.google.com">Sell Your Art</a>
+<div class="headerTop">
+    <div class="container header">
+      <div class="row headerRow">
+        <a class="col-lg-6 logo" href="home.html"><img src="../icons/logo.png"></a>
+        <a href="CartPage.html" class="cart"><label>MY CART</label><img src="../icons/cart.png"></a>
+        <input type="text" class="searchbar hidden-sm hidden-xs" placeholder="Search for art"/>
+        
+
+        
+      </div>
+      <div class="searchbarRow">
+        <input type="text" class="searchbarBig hidden-lg hidden-md" placeholder="Search for art"/>
+      </div>
+
+    </div>
+<br><br>
+
+<div class="row"> 
+<div class="clearfix"></div>  
+<nav id="nav" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <button id="loginBtnCollapse" class="navbar-toggle collapsed ">LOGIN / REGISTER</button>
+      <button type="button" class="btn-collapsed navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button> 
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       
+       <ul class="nav navbar-nav listToggled"> 
+      <li class="txt"><a href="">NEW</a></li>
+        <li class="txt art-link"><a href="">ART</a></li> 
+         <li class="txt"><a href="../Partials/CollectionListPage.html">COLLECTIONS</a></li>
+         <li class="txt"><a href="">ARTISTS</a></li>
+          <li class="txt"><a href="">SHOWROOM</a></li>
+            <li class="txt"><a href="">ART ADVISORY</a></li>
+             <li class="txt"><a href="">TURPENTINE MAG</a></li>
+             
+        
+          </ul> 
+          <button id="loginBtn"class="btnLogin hidden-sm hidden-xs">LOGIN / REGISTER</button>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>  
+</div>
+
+<div class="row art-hover-main-row">
+    <div class="art-hover-div hiddem-md hidden-sm hidden-xs">
+      <div class="container hover-div-container">
+      <div class="row hover-div-row">
+        <div class="all-hover-divs">
+          <div class="hover-left-container hover-divs col-lg-4 col-md-4 ">
+            <div class="hover-label-and-list">
+               <label class="hover-divs-label">STYLES</label>
+                <div class="row hover-inside-list-row">
+                 <ul class="list-unstyled hover-list col-lg-7 col-md-7">
+                  <li><a>All Styles</a></li>
+                  <li><a>Pop Art</a></li>
+                  <li><a>Fine Art</a></li>
+                  <li><a>Animals</a></li>
+                  <li><a>Expressionism</a></li>
+                  <li><a>Pop Culture</a></li>
+                  <li><a>City</a></li>
+                  <li><a>Still Life</a></li>
+                  <li><a>Realism</a></li>
+                  <li><a>Buildings</a></li>
+                  <li><a>Nature</a></li>
+                  <li><a>Drawing/Illustration</a></li>
+                  <li><a>Art Nouveau</a></li>
+                  <li><a>Cubist</a></li>
+                  <li><a>City</a></li>
+                  <li><a>Abstract Expressionism</a></li>
+                
+                </ul>
+                <ul class="list-unstyled hover-list col-lg-4 col-md-4">
+                  <li><a>Abstract</a></li>
+                  <li><a>Folk Art</a></li>
+                  <li><a>Decorative Art</a></li>
+                  <li><a>People</a></li>
+                  <li><a>Surrealism</a></li>
+                  <li><a>Botanical</a></li>
+                  <li><a>African Art</a></li>
+                  <li><a>Symbolism</a></li>
+                  <li><a>Impressionism</a></li>
+                  <li><a>Lanscape</a></li>
+                  <li><a>Figures</a></li>
+                  <li><a>Fantasty</a></li>
+                  <li><a>Portraits</a></li>
+                  <li><a>Portraits</a></li>
+                  <li><a>Photography</a></li>
+                  <li><a>Portraiture</a></li>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+           <div class="hover-middle-container hover-divs col-lg-4 col-md-4">
+              <div class="hover-label-and-list">
+             <label class="hover-divs-label">MEDIUMS</label>
+              <div class="row hover-inside-list-row">
+                 <ul class="list-unstyled hover-list col-lg-4 col-md-4">
+                  <li><a>All Mediums</a></li>
+                  <li><a>Oil Painting</a></li>
+                  <li><a>Mixed Media</a></li>
+                  <li><a>Pastel Colors</a></li>
+                  <li><a>Prints</a></li>
+                  <li><a>Sculpture</a></li>
+                  <li><a>Digital Art</a></li>
+                </ul>
+                <ul class="list-unstyled hover-list col-lg-8 col-md-8">
+                  <li><a>Drawings</a></li>
+                  <li><a>Acrylic Painting</a></li>
+                  <li><a>Pen and Ink</a></li>
+                  <li><a>Other</a></li>
+                  <li><a>Photography</a></li>
+                  <li><a>Watercolor Painting</a></li>
+                  <li><a>Wood cut on Paper</a></li>
+                </ul>
+            </div>
+            </div>
+          </div>
+          <div class="hover-right-container hover-divs col-lg-4 col-md-4">
+              <div class="hover-label-and-list">
+             <label class="hover-divs-label">ARTWORK OF THE DAY</label>
+             <img class="thumbnail hover-divs-image" src="../Images/recentArt.jpg">
+            </div>
+          </div>
+         
+          </div>
+      </div> 
+    </div>
+  </div>
+</div>
+    
+       </div> <!--End of page header-->
+      
+      
+       
+       <div class="container" id="cart-content"> 
+           
+           <div class="title">
+       <div class="page-headline"> <h class="page-title"> My Cart</h> </div>  
+           </div> 
+
+           <div id="added-alert" class="alert alert-success">
+              Beatle has been added to your cart.
+           </div>
+
+         <div class="row">  
+
+           <div class="col-lg-4 col-md-4" id="left-area">
+              
+              <div id="left-area-content"> 
+
+           <table class cellspacing="0" id="cart-items">
+                
+                <thread> 
+                   <tr>
+                     <th class="product-name" id="product-space"><label id="product-header">Product</label></th>
+                     <th class="product-price">Price</th>
+                     <th class="product-quantity">Quantity</th>
+                     <th class="product-total">Total</th> 
+                   </tr>
+                </thread> 
+              
+                <tbody>
+                	<tr class="cart-item"> 
+                	  <td class="product-name">   
+
+                	     <a href="EmptyCartPage.html"> <img src="../Images/remove.png" id="remove">  </a>
+                	      <img src="../Images/product1.png" id="p-img"> 
+                	      <a id="p-name" href="#">Beatle</a> 
+                	  </td>  
+                	  <td class="product-price"> EGP 13,000 </td>
+                	  <td class="product-quantity"> 1 </td>
+                	  <td class="product-total"> EGP 13,000 </td>
+                	</tr> 
+
+                </tbody>
+
+
+           </table> 
+
+             </div>
+
+           </div> <!--End of left area--> 
+
+           <div class="col-lg-4 col-md-4" id="right-area"> 
+              
+               <div id="right-area-content"> 
+                  
+                  <div id="right-area-title">
+                    <p id="r-title"> Cart Total </p>
+                  </div>
+
+                   <div id="right-area-data"> 
+
+               <table class cellspacing="0" id="cart-total">
+                    
+                    <tbody> 
+                        <tr> 
+                    	    <th> Cart Subtotal </th>  
+                    	    <td> EGP 13,000 </td>
+                    	</tr> 
+
+                    	<tr>
+                             <th> Shipping and Handeling </th>
+                    	     <td> <p id="broken-p"class="shipping"> 
+                    	     Please use the shipping</br>
+                    	     calculator to see available</br>
+                    	     shipping methods. </p> </td>   
+                    	     <td> <p id="inline-p" class="hidden-lg hidden-md hidden-xs shipping"> 
+                    	      Please use the shipping
+                    	     calculator to see available
+                    	     shipping methods.
+                    	     </p> </td>  
+                           <td> <p id="broken-mobile-p" class="hidden-lg hidden-md hidden-sm shipping"> 
+                            Please use the shipping
+                           calculator </br> to see available
+                           shipping methods.
+                           </p> </td> 
+
+                    	</tr> 
+
+                    	<tr> 
+                    	     <th> Order Total </th>
+                    	     <td> <p id="total">EGP 13,000 </p> </td> 
+                    	</tr>
+                    	  
+                    </tbody>
+             
+               </table> 
+
+                   </div> <!--End of right area data-->  
+
+                     <div id="checkout">
+            <button type="button" class="btn btn-primary btn-lg" id="checkout-btn" onclick="location.href = 'Checkout.html';"> PROCEED TO CHECKOUT</button>  
+                    
+               <a href="#" id="cont-link"> Continue Shopping </a>
+                    </div>
+                <div id="coupon-block">  
+
+                    <div id="coupon-title"> 
+                      <p id="c-title"> Coupon </p>
+                    </div> 
+
+                    <input type="text" placeholder="Coupon Code" id="coupon-code">  
+                        
+                        
+                    <button type="button" class="btn btn-primary btn-lg" id="coupon-btn"> APPLY COUPON</button>
+                         
+
+                </div> <!--End of coupon block--> 
+
+                <div id="shipping-block"> 
+
+                         
+                      <label id="calculate-text"> + Calculate Shipping </label>
+                         
+
+                        <div id="calculate-dropdown"  class="initiallyHidden">
+                           <form role="form">
+                             <div class="form-group">
+                              
+                               <select class="form-control" id="select-country">
+  <option value="EG">Egypt</option>
+  <option value="AX">Åland Islands</option>
+  <option value="AL">Albania</option>
+  <option value="DZ">Algeria</option>
+  <option value="AS">American Samoa</option>
+  <option value="AD">Andorra</option>
+  <option value="AO">Angola</option>
+  <option value="AI">Anguilla</option>
+  <option value="AQ">Antarctica</option>
+  <option value="AG">Antigua and Barbuda</option>
+  <option value="AR">Argentina</option>
+  <option value="AM">Armenia</option>
+  <option value="AW">Aruba</option>
+  <option value="AU">Australia</option>
+  <option value="AT">Austria</option>
+  <option value="AZ">Azerbaijan</option>
+  <option value="BS">Bahamas</option>
+  <option value="BH">Bahrain</option>
+  <option value="BD">Bangladesh</option>
+  <option value="BB">Barbados</option>
+  <option value="BY">Belarus</option>
+  <option value="BE">Belgium</option>
+  <option value="BZ">Belize</option>
+  <option value="BJ">Benin</option>
+  <option value="BM">Bermuda</option>
+  <option value="BT">Bhutan</option>
+  <option value="BO">Bolivia, Plurinational State of</option>
+  <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+  <option value="BA">Bosnia and Herzegovina</option>
+  <option value="BW">Botswana</option>
+  <option value="BV">Bouvet Island</option>
+  <option value="BR">Brazil</option>
+  <option value="IO">British Indian Ocean Territory</option>
+  <option value="BN">Brunei Darussalam</option>
+  <option value="BG">Bulgaria</option>
+  <option value="BF">Burkina Faso</option>
+  <option value="BI">Burundi</option>
+  <option value="KH">Cambodia</option>
+  <option value="CM">Cameroon</option>
+  <option value="CA">Canada</option>
+  <option value="CV">Cape Verde</option>
+  <option value="KY">Cayman Islands</option>
+  <option value="CF">Central African Republic</option>
+  <option value="TD">Chad</option>
+  <option value="CL">Chile</option>
+  <option value="CN">China</option>
+  <option value="CX">Christmas Island</option>
+  <option value="CC">Cocos (Keeling) Islands</option>
+  <option value="CO">Colombia</option>
+  <option value="KM">Comoros</option>
+  <option value="CG">Congo</option>
+  <option value="CD">Congo, the Democratic Republic of the</option>
+  <option value="CK">Cook Islands</option>
+  <option value="CR">Costa Rica</option>
+  <option value="CI">Côte d'Ivoire</option>
+  <option value="HR">Croatia</option>
+  <option value="CU">Cuba</option>
+  <option value="CW">Curaçao</option>
+  <option value="CY">Cyprus</option>
+  <option value="CZ">Czech Republic</option>
+  <option value="DK">Denmark</option>
+  <option value="DJ">Djibouti</option>
+  <option value="DM">Dominica</option>
+  <option value="DO">Dominican Republic</option>
+  <option value="EC">Ecuador</option>
+  <option value="SV">El Salvador</option>
+  <option value="GQ">Equatorial Guinea</option>
+  <option value="ER">Eritrea</option>
+  <option value="EE">Estonia</option>
+  <option value="ET">Ethiopia</option>
+  <option value="FK">Falkland Islands (Malvinas)</option>
+  <option value="FO">Faroe Islands</option>
+  <option value="FJ">Fiji</option>
+  <option value="FI">Finland</option>
+  <option value="FR">France</option>
+  <option value="GF">French Guiana</option>
+  <option value="PF">French Polynesia</option>
+  <option value="TF">French Southern Territories</option>
+  <option value="GA">Gabon</option>
+  <option value="GM">Gambia</option>
+  <option value="GE">Georgia</option>
+  <option value="DE">Germany</option>
+  <option value="GH">Ghana</option>
+  <option value="GI">Gibraltar</option>
+  <option value="GR">Greece</option>
+  <option value="GL">Greenland</option>
+  <option value="GD">Grenada</option>
+  <option value="GP">Guadeloupe</option>
+  <option value="GU">Guam</option>
+  <option value="GT">Guatemala</option>
+  <option value="GG">Guernsey</option>
+  <option value="GN">Guinea</option>
+  <option value="GW">Guinea-Bissau</option>
+  <option value="GY">Guyana</option>
+  <option value="HT">Haiti</option>
+  <option value="HM">Heard Island and McDonald Islands</option>
+  <option value="VA">Holy See (Vatican City State)</option>
+  <option value="HN">Honduras</option>
+  <option value="HK">Hong Kong</option>
+  <option value="HU">Hungary</option>
+  <option value="IS">Iceland</option>
+  <option value="IN">India</option>
+  <option value="ID">Indonesia</option>
+  <option value="IR">Iran, Islamic Republic of</option>
+  <option value="IQ">Iraq</option>
+  <option value="IE">Ireland</option>
+  <option value="IM">Isle of Man</option>
+  <option value="IL">Israel</option>
+  <option value="IT">Italy</option>
+  <option value="JM">Jamaica</option>
+  <option value="JP">Japan</option>
+  <option value="JE">Jersey</option>
+  <option value="JO">Jordan</option>
+  <option value="KZ">Kazakhstan</option>
+  <option value="KE">Kenya</option>
+  <option value="KI">Kiribati</option>
+  <option value="KP">Korea, Democratic People's Republic of</option>
+  <option value="KR">Korea, Republic of</option>
+  <option value="KW">Kuwait</option>
+  <option value="KG">Kyrgyzstan</option>
+  <option value="LA">Lao People's Democratic Republic</option>
+  <option value="LV">Latvia</option>
+  <option value="LB">Lebanon</option>
+  <option value="LS">Lesotho</option>
+  <option value="LR">Liberia</option>
+  <option value="LY">Libya</option>
+  <option value="LI">Liechtenstein</option>
+  <option value="LT">Lithuania</option>
+  <option value="LU">Luxembourg</option>
+  <option value="MO">Macao</option>
+  <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+  <option value="MG">Madagascar</option>
+  <option value="MW">Malawi</option>
+  <option value="MY">Malaysia</option>
+  <option value="MV">Maldives</option>
+  <option value="ML">Mali</option>
+  <option value="MT">Malta</option>
+  <option value="MH">Marshall Islands</option>
+  <option value="MQ">Martinique</option>
+  <option value="MR">Mauritania</option>
+  <option value="MU">Mauritius</option>
+  <option value="YT">Mayotte</option>
+  <option value="MX">Mexico</option>
+  <option value="FM">Micronesia, Federated States of</option>
+  <option value="MD">Moldova, Republic of</option>
+  <option value="MC">Monaco</option>
+  <option value="MN">Mongolia</option>
+  <option value="ME">Montenegro</option>
+  <option value="MS">Montserrat</option>
+  <option value="MA">Morocco</option>
+  <option value="MZ">Mozambique</option>
+  <option value="MM">Myanmar</option>
+  <option value="NA">Namibia</option>
+  <option value="NR">Nauru</option>
+  <option value="NP">Nepal</option>
+  <option value="NL">Netherlands</option>
+  <option value="NC">New Caledonia</option>
+  <option value="NZ">New Zealand</option>
+  <option value="NI">Nicaragua</option>
+  <option value="NE">Niger</option>
+  <option value="NG">Nigeria</option>
+  <option value="NU">Niue</option>
+  <option value="NF">Norfolk Island</option>
+  <option value="MP">Northern Mariana Islands</option>
+  <option value="NO">Norway</option>
+  <option value="OM">Oman</option>
+  <option value="PK">Pakistan</option>
+  <option value="PW">Palau</option>
+  <option value="PS">Palestinian Territory, Occupied</option>
+  <option value="PA">Panama</option>
+  <option value="PG">Papua New Guinea</option>
+  <option value="PY">Paraguay</option>
+  <option value="PE">Peru</option>
+  <option value="PH">Philippines</option>
+  <option value="PN">Pitcairn</option>
+  <option value="PL">Poland</option>
+  <option value="PT">Portugal</option>
+  <option value="PR">Puerto Rico</option>
+  <option value="QA">Qatar</option>
+  <option value="RE">Réunion</option>
+  <option value="RO">Romania</option>
+  <option value="RU">Russian Federation</option>
+  <option value="RW">Rwanda</option>
+  <option value="BL">Saint Barthélemy</option>
+  <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+  <option value="KN">Saint Kitts and Nevis</option>
+  <option value="LC">Saint Lucia</option>
+  <option value="MF">Saint Martin (French part)</option>
+  <option value="PM">Saint Pierre and Miquelon</option>
+  <option value="VC">Saint Vincent and the Grenadines</option>
+  <option value="WS">Samoa</option>
+  <option value="SM">San Marino</option>
+  <option value="ST">Sao Tome and Principe</option>
+  <option value="SA">Saudi Arabia</option>
+  <option value="SN">Senegal</option>
+  <option value="RS">Serbia</option>
+  <option value="SC">Seychelles</option>
+  <option value="SL">Sierra Leone</option>
+  <option value="SG">Singapore</option>
+  <option value="SX">Sint Maarten (Dutch part)</option>
+  <option value="SK">Slovakia</option>
+  <option value="SI">Slovenia</option>
+  <option value="SB">Solomon Islands</option>
+  <option value="SO">Somalia</option>
+  <option value="ZA">South Africa</option>
+  <option value="GS">South Georgia and the South Sandwich Islands</option>
+  <option value="SS">South Sudan</option>
+  <option value="ES">Spain</option>
+  <option value="LK">Sri Lanka</option>
+  <option value="SD">Sudan</option>
+  <option value="SR">Suriname</option>
+  <option value="SJ">Svalbard and Jan Mayen</option>
+  <option value="SZ">Swaziland</option>
+  <option value="SE">Sweden</option>
+  <option value="CH">Switzerland</option>
+  <option value="SY">Syrian Arab Republic</option>
+  <option value="TW">Taiwan, Province of China</option>
+  <option value="TJ">Tajikistan</option>
+  <option value="TZ">Tanzania, United Republic of</option>
+  <option value="TH">Thailand</option>
+  <option value="TL">Timor-Leste</option>
+  <option value="TG">Togo</option>
+  <option value="TK">Tokelau</option>
+  <option value="TO">Tonga</option>
+  <option value="TT">Trinidad and Tobago</option>
+  <option value="TN">Tunisia</option>
+  <option value="TR">Turkey</option>
+  <option value="TM">Turkmenistan</option>
+  <option value="TC">Turks and Caicos Islands</option>
+  <option value="TV">Tuvalu</option>
+  <option value="UG">Uganda</option>
+  <option value="UA">Ukraine</option>
+  <option value="AE">United Arab Emirates</option>
+  <option value="GB">United Kingdom</option>
+  <option value="US">United States</option>
+  <option value="UM">United States Minor Outlying Islands</option>
+  <option value="UY">Uruguay</option>
+  <option value="UZ">Uzbekistan</option>
+  <option value="VU">Vanuatu</option>
+  <option value="VE">Venezuela, Bolivarian Republic of</option>
+  <option value="VN">Viet Nam</option>
+  <option value="VG">Virgin Islands, British</option>
+  <option value="VI">Virgin Islands, U.S.</option>
+  <option value="WF">Wallis and Futuna</option>
+  <option value="EH">Western Sahara</option>
+  <option value="YE">Yemen</option>
+  <option value="ZM">Zambia</option>
+  <option value="ZW">Zimbabwe</option>
+</select>
+                        </div>  
+                        </form> <!--End of country selector-->  
+             <form role="form">
+                  <div class="form-group">
+                              
+                     <select class="form-control" id="select-option" placeholder="Select an option.."> 
+                      <option value>Select an option..</option>
+                      <option value="CA">Cairo</option>
+                      <option value="WN">Wadi Nakhil</option>
+                      <option value="OB">Oboor</option>
+                      <option value="RE">El Rehab</option>
+                      <option value="SH">Sharm El-Sheikh</option>
+                      <option value="GO">Gona</option>
+                      <option value="HG">Hurghada</option> 
+
+                     </select>
+                  </div> 
+              </form> 
+
+           <input type="text" placeholder="Poscode/Zip" id="post-code"> 
+
+           <button type="button" class="btn btn-primary btn-lg" id="update-btn"> update totals</button>
+
+
+                        </div> <!--End of shipping dropdown-->
+
+                </div> <!--End of shipping block-->
+
+              </div> <!--End of right area content-->
+
+           </div> <!--End of right area-->
+         
+         </div>
+
+        </div> <!--End of cart content--> 
+        
+      <div class="container">
+         <div id="catalogue">
+             
+             <div class="title">
+          <div class="page-headline"> <h class="page-title"> You May Be Interested In...</h> </div> 
+              </div>
+
+            <div class="row">    
+
+            <div class="item-block col-lg-4 col-md-4 col-sm-6">
+
+            <div class="collection-item">  
+                  
+                  <div class="c-imgs"> 
+
+              <a href="singleProduct.html" class="items">
+              <img class="img-responsive" src="http://arts-mart.com/wp-content/uploads/2016/05/13.28-100x100-13000-320x320.jpg" alt="">
+              </a>
+              <h4><strong>Beetle</strong></h4>
+              <div class="priceText"><span class="amountText  ">EGP 13,000</span></div>
+              <p>Ahmed Talal<br>100 x 100 cm</p>
+
+                 </div> 
+
+            </div>
+           
+           
+               
+           </div> <!--End of an item block-->    
+
+            <div class="item-block col-lg-4 col-md-4 col-sm-6">
+
+            <div class="collection-item">   
+
+              <div class="c-imgs"> 
+
+              <span class="s-b-img"> <img src="../Images/c-1.png"class="big-img"></span> 
+
+                <h4><strong>Beetle</strong></h4>
+              <div class="priceText"><span class="amountText  ">EGP 13,000</span></div>
+              <p>Ahmed Talal<br>100 x 100 cm</p>
+        
+                 </div>
+
+            </div>
+           
+           
+               
+           </div> <!--End of an item block-->    
+
+
+            <div class="item-block col-lg-4 col-md-4 col-sm-6">
+
+            <div class="collection-item">   
+
+               <div class="c-imgs"> 
+
+              <span class="s-b-img"> <img src="../Images/product3.png"class="big-img"></span> 
+
+                 <h4><strong>Beetle</strong></h4>
+              <div class="priceText"><span class="amountText  ">EGP 13,000</span></div>
+              <p>Ahmed Talal<br>100 x 100 cm</p>
+              
+                 </div> 
+
+               
+
+
+            </div>
+           
+           
+                
+           </div> <!--End of an item block-->   
+            </div>
+                
+
+      </div> <!--End of catalogue--> 
+    </div>
+
+
+  </div> <!--End of page wrapper--> 
+
+ <!--start of footer-->    
+   <div class="footer">
+  <div class="left-container hidden-sm hidden-xs">
+    <div class="footer-container-left">
+      <div class="row footer-row-left">
+        <div class="label-and-button col-lg-12">
+          <p>GET THE LATEST UPDATES, NEWS, TIPS & OFFERS.</p>
+          <input class="search-bar-footer col-lg-6 col-md-6 col-xs-12" type="text" placeholder="Email Address"/> 
+          <button class="col-lg-2 col-md-2 col-sm-3 col-xs-3 submit-button-footer"><label>SUBSCRIBE</label></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="left-container-hidden hidden-lg hidden-md">
+    <div class="footer-container-left">
+      <div class="row footer-row-left">
+        <div class="label-and-button-hidden col-lg-12">
+          <p>GET THE LATEST UPDATES, NEWS, TIPS & OFFERS.</p>
+          <input class="search-bar-footer-hidden col-lg-6 col-md-6" type="text" placeholder="Email Address"/> 
+          <button class="col-lg-2 col-md-2 col-sm-3 col-xs-3 submit-button-footer-hidden"><label>SUBSCRIBE</label></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="right-container">
+    <div class="footer-container-right">
+      <div class="row footer-row-right">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>FOR BUYERS</label>
+          <ul class="list-unstyled">
+            <li><a>Art</a></li>
+            <li><a>Events</a></li>
+            <li><a>Art Advisory</a></li>
+            <li><a>FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>FOR ARTISTS</label>
+         <ul class="list-unstyled">
+               <li><a>Sell Your Design</a></li>
+            <li><a>Sign In</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>ARTSMART</label>
+         <ul class="list-unstyled">
+            <li><a>About</a></li>
+            <li><a>How it Works</a></li>
+            <li><a>Turpentine Mag</a></li>
+            <li><a>Contact Us</a></li>
+            
+          </ul></div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 right-text">
+        <label>USEFUL LINKS</label>
+         <ul class="list-unstyled">
+            <li><a>Payment</a></li>
+            <li><a>Shipping</a></li>
+            
+          </ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    
+    <div class="container footer-container-bottom">
+      <div class="row footer-row-bottom">
+
+        <div class="col-lg-2 col-md-2 footer-bottom-logo">
+     
+        </div>
+
+        
+
+      </div>
+
+  </div>
+</div>
+
+ 
+      <script src="../JavaScript/jquery-1.11.1.min.js"></script>
+      <script src="../JavaScript/bootstrap.min.js"></script>   
+      <script src="../JavaScript/main.js"></script>
+
+</body>   
+
+
+</html>
